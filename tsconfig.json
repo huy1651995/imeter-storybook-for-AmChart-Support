@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": [
+      "es2021",
+      "es7",
+      "es6",
+      "dom"
+    ],
+    "declaration": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
